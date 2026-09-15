@@ -1,4 +1,4 @@
-Travis Scott Burger Fantasy League 2025
+Travis Scott Burger Fantasy League 2026
 ================
 
 *All data from
@@ -101,27 +101,48 @@ library*
 
 ### Most Points Scored in a Loss
 
-- Week 13: David def. Isaac 146.84-139.6
-- Week 10: JP def. Isaac 134.48-133.17
-- Week 6: Hank def. Chad 153.14-130.53
-- Week 4: Eric def. David 147.5-126.72
-- Week 2: Matthew def. Isaac 130.85-126.71
+- Week 1: Isaac def. Eric 137.95-114.4
+- Week 1: JP def. Matthew 147.76-108.72
+- Week 1: David def. Chad 130.31-108.43
+- Week 1: Adam def. Hank 106.97-105.65
+- Week 1: Jeremiah def. Andrew 123.97-102.16
 
 ------------------------------------------------------------------------
 
 ### Fewest Points Scored in a Victory
 
-- Week 1: Eric def. Isaac 90.32-70.53
-- Week 6: JP def. Andrew 91.14-80.01
-- Week 12: Andrew def. Josh 94.41-79.18
-- Week 13: JP def. Josh 95.66-42.61
-- Week 9: Chad def. Josh 95.75-92.97
+- Week 1: Adam def. Hank 106.97-105.65
+- Week 1: Jeremiah def. Andrew 123.97-102.16
+- Week 1: David def. Chad 130.31-108.43
+- Week 1: Isaac def. Eric 137.95-114.4
+- Week 1: JP def. Matthew 147.76-108.72
 
 ------------------------------------------------------------------------
 
 ### Weekly Scoring Trends
 
 <!-- Coming next week -->
+
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
 
 ![](README_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
@@ -135,71 +156,71 @@ library*
 
 ### Highest Scoring Games
 
-- Week 7: Eric def. Adam 179.39-109.87
-- Week 13: David def. Isaac 146.84-139.6
-- Week 6: Hank def. Chad 153.14-130.53
-- Week 12: Chad def. JP 153.82-122.26
-- Week 4: Eric def. David 147.5-126.72
+- Week 1: JP def. Matthew 147.76-108.72
+- Week 1: Isaac def. Eric 137.95-114.4
+- Week 1: David def. Chad 130.31-108.43
+- Week 1: Jeremiah def. Andrew 123.97-102.16
+- Week 1: Adam def. Hank 106.97-105.65
 
 ------------------------------------------------------------------------
 
 ### Biggest Blowouts
 
-- Week 7: Isaac def. Josh 151.95-48.5
-- Week 9: David def. Matthew 178.49-94.32
-- Week 2: Chad def. Adam 130.57-56.67
-- Week 7: Eric def. Adam 179.39-109.87
-- Week 3: Chad def. Matthew 118.57-60.76
+- Week 1: JP def. Matthew 147.76-108.72
+- Week 1: Isaac def. Eric 137.95-114.4
+- Week 1: David def. Chad 130.31-108.43
+- Week 1: Jeremiah def. Andrew 123.97-102.16
+- Week 1: Adam def. Hank 106.97-105.65
 
 ------------------------------------------------------------------------
 
 ### Closest Games
 
-- Week 10: David def. Andrew 96.63-96.34
-- Week 10: JP def. Isaac 134.48-133.17
-- Week 8: Eric def. Josh 103.55-101.68
-- Week 9: Isaac def. Eric 114.29-112.34
-- Week 9: Chad def. Josh 95.75-92.97
+- Week 1: Adam def. Hank 106.97-105.65
+- Week 1: Jeremiah def. Andrew 123.97-102.16
+- Week 1: David def. Chad 130.31-108.43
+- Week 1: Isaac def. Eric 137.95-114.4
+- Week 1: JP def. Matthew 147.76-108.72
 
 ------------------------------------------------------------------------
 
 ### Most Points Scored by One Team
 
-- 179.39 (Eric, Week 7)
-- 178.49 (David, Week 9)
-- 162.16 (JP, Week 5)
-- 156.24 (David, Week 12)
-- 155.24 (Hank, Week 10)
+- 147.76 (JP, Week 1)
+- 137.95 (Isaac, Week 1)
+- 130.31 (David, Week 1)
+- 123.97 (Jeremiah, Week 1)
+- 114.4 (Eric, Week 1)
 
 ------------------------------------------------------------------------
 
 ### Fewest Points Scored by One Team
 
-- 42.61 (Josh, Week 13)
-- 48.5 (Josh, Week 7)
-- 56.67 (Adam, Week 2)
-- 57.86 (Isaac, Week 3)
-- 60.76 (Matthew, Week 3)
+- 102.16 (Andrew, Week 1)
+- 105.65 (Hank, Week 1)
+- 106.97 (Adam, Week 1)
+- 108.43 (Chad, Week 1)
+- 108.72 (Matthew, Week 1)
 
 ------------------------------------------------------------------------
 
 ### Past Week One Player Merchants
 
-- Kyren Williams: 31% of total points for Josh
-- Seahawks D/ST: 27.5% of total points for Hank
-- Patrick Mahomes: 24% of total points for Chad
-- Bijan Robinson: 21.8% of total points for Andrew
-- Marcus Mariota: 21.3% of total points for Matthew
+- D’Andre Swift: 31.2% of total points for Andrew
+- Caleb Williams: 30.2% of total points for Eric
+- Jahmyr Gibbs: 29.1% of total points for Adam
+- Josh Allen: 26.1% of total points for Jeremiah
+- Derrick Henry: 25.2% of total points for Isaac
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Jonathan Taylor: 18.98% of total points for Isaac
-- Christian McCaffrey: 18.07% of total points for David
-- Josh Allen: 16.34% of total points for Adam
-- Drake Maye: 15.73% of total points for Andrew
-- De’Von Achane: 15.71% of total points for Hank
+- D’Andre Swift: 31.23% of total points for Andrew
+- Caleb Williams: 30.22% of total points for Eric
+- Jahmyr Gibbs: 29.07% of total points for Adam
+- Josh Allen: 26.07% of total points for Jeremiah
+- Derrick Henry: 25.23% of total points for Isaac
 
 ------------------------------------------------------------------------
 
@@ -247,6 +268,9 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 <!-- Coming next week -->
 
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
+
 ![](README_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 ------------------------------------------------------------------------
@@ -273,16 +297,16 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
-- Chad: 4 wins when projected to lose
-- JP: 4 wins when projected to lose
-- Andrew: 3 wins when projected to lose
-- Eric: 3 wins when projected to lose
-- Adam: 2 wins when projected to lose
-- Hank: 2 wins when projected to lose
-- Matthew: 2 wins when projected to lose
-- David: 1 win when projected to lose
-- Isaac: 1 win when projected to lose
-- Josh: 1 win when projected to lose
+- JP: 1 win when projected to lose
+- Adam: 0 wins when projected to lose
+- Andrew: 0 wins when projected to lose
+- Chad: 0 wins when projected to lose
+- David: 0 wins when projected to lose
+- Eric: 0 wins when projected to lose
+- Hank: 0 wins when projected to lose
+- Isaac: 0 wins when projected to lose
+- Jeremiah: 0 wins when projected to lose
+- Matthew: 0 wins when projected to lose
 
 ------------------------------------------------------------------------
 
@@ -318,11 +342,29 @@ overall number you see in parentheses next to everyone’s names.
 
 Description under the plot after this one
 
+    ## Warning: Removed 10 rows containing missing values or values outside the scale range
+    ## (`geom_col()`).
+
+    ## Warning: Removed 10 rows containing missing values or values outside the scale range
+    ## (`geom_text()`).
+
 ![](README_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
 
 ------------------------------------------------------------------------
 
 ### Opponent Scoring Compared to Adjusted PPG
+
+    ## Warning: Position guide is perpendicular to the intended axis.
+    ## ℹ Did you mean to specify a different guide `position`?
+
+    ## Warning: Removed 10 rows containing missing values or values outside the scale range
+    ## (`geom_point()`).
+
+    ## Warning: Removed 10 rows containing missing values or values outside the scale range
+    ## (`geom_text_repel()`).
+
+    ## Warning: Removed 1 row containing missing values or values outside the scale range
+    ## (`geom_vline()`).
 
 ![](README_files/figure-gfm/unnamed-chunk-35-1.png)<!-- -->
 
@@ -375,6 +417,9 @@ average, and higher would indicate your opponent scoring higher than
 ------------------------------------------------------------------------
 
 ### Cumulative Score Differentials
+
+    ## `geom_line()`: Each group consists of only one observation.
+    ## ℹ Do you need to adjust the group aesthetic?
 
 ![](README_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
 

@@ -1,5 +1,5 @@
 ---
-title: "Travis Scott Burger Fantasy League 2025"
+title: "Travis Scott Burger Fantasy League 2026"
 output: github_document
 knit: (function(input, ...) { rmarkdown::render(input, output_file = "README.md", envir = globalenv()) })
 ---
@@ -62,25 +62,40 @@ ___
 
 ```{r message = F, warning = F, include = F}
 library(tidyverse)
-library(tvthemes)
 library(ffscrapr)
 library(ggimage)
 library(glue)
 library(googlesheets4)
 
-theme_custom = theme_avatar() +
-  theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5, size = 9, vjust = 2.5, face = "italic"),
-        plot.caption = element_text(face = "italic"),
-        panel.grid.major = element_line(linewidth = 0.5, colour = "#DFDAD1"),
-        panel.grid.minor = element_line(linewidth = 0.5, colour = "#DFDAD1"))
+theme_custom = function() {
+  ggplot2::theme_minimal() +
+    theme(
+      plot.background = element_rect(color = NA, fill = "#ece5d3"),
+      panel.background = element_rect(color = NA, fill = "#ece5d3"),
+      panel.grid.major = element_line(linewidth = 0.5, colour = "#DFDAD1"),
+      panel.grid.minor = element_line(linewidth = 0.5, colour = "#DFDAD1"),
+      plot.title = element_text(hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5, size = 9, vjust = 2.5, face = "italic"),
+      plot.caption = element_text(face = "italic"),
+      axis.text = element_text(size = 8, color = "grey20"),
+      axis.title = element_text(size = 10, color = "grey20"),
+      legend.position = "bottom",
+      legend.text = element_text(size = 8, color = "grey20"),
+      legend.title = element_text(size = 10, color = "grey20"),
+      legend.key = element_rect(colour = "black", linetype = "solid", linewidth = 1.25),
+      legend.background = element_rect(color = "black", fill = "#ece5d3", linetype = "solid"),
+      axis.ticks = element_blank(),
+      axis.ticks.x = element_blank(),
+      axis.ticks.y = element_blank()
+    )
+}
 
-theme_set(theme_custom)
+theme_set(theme_custom())
 
 conn = ff_connect(
   platform = "espn",
   league_id = "81518506",
-  season = 2025
+  season = 2026
 )
 
 id_to_name = ff_rosters(conn = conn) |>
@@ -131,7 +146,7 @@ team_records = end_games |>
 standings_vec = team_records$first
 all_teams = sort(unique(c(end_games$win_team, end_games$lose_team)))
 
-gs4_auth("chadallison1999@gmail.com")
+gs4_auth("chadallison1999@gmail.com", cache = TRUE)
 google_sheet_url = "https://docs.google.com/spreadsheets/d/1-yhwCwkph7TanT4R0oTC4d6Y2NwKbZ-m-ysbkxQx9hs/edit?usp=sharing"
 parlays = read_sheet(google_sheet_url, sheet = 1)
 
@@ -707,7 +722,7 @@ tibble(drinker, time) |>
   geom_col(fill = "#E3A562") +
   geom_text(aes(label = time), size = 3.5, hjust = -0.25) +
   coord_flip(ylim = c(0, max(time) * 1.05)) +
-  scale_y_continuous(breaks = seq(0, 30, by = 1)) +
+  scale_y_continuous(breaks = seq(0, 60, by = 2)) +
   labs(x = NULL,
        y = "Chug time (seconds)",
        title = "The rest of you are cowards")
