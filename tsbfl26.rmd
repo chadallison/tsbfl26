@@ -147,12 +147,12 @@ standings_vec = team_records$first
 all_teams = sort(unique(c(end_games$win_team, end_games$lose_team)))
 
 gs4_auth("chadallison1999@gmail.com", cache = TRUE)
-google_sheet_url = "https://docs.google.com/spreadsheets/d/1-yhwCwkph7TanT4R0oTC4d6Y2NwKbZ-m-ysbkxQx9hs/edit?usp=sharing"
+google_sheet_url = "https://docs.google.com/spreadsheets/d/1JEi1EgrypfnOjoQ3ETG6ZsBix__N0dVP7KMc2Bb_-Dw/edit?usp=sharing"
 parlays = read_sheet(google_sheet_url, sheet = 1)
 
 team_divisions = tibble(
-  name = c("Andrew", "Eric", "Adam", "Isaac", "David",
-           "Hank", "JP", "Josh", "Chad", "Matthew"),
+  name = c("David", "Matthew", "JP", "Isaac", "Eric",
+           "Andrew", "Adam", "Jeremiah", "Hank", "Chad"),
   division = c(rep("Tar Heel", 5), rep("Wolfpack", 5))
 ) |>
   inner_join(team_name_to_name, by = c("name" = "first")) |>
@@ -712,8 +712,8 @@ ___
 ### Chug Analysis
 
 ```{r echo = F}
-drinker = c("Drew", "Hank", "Adam", "Josh")
-time = c(8.6, 13.2, 13.0, 30.6)
+drinker = c("Chad")
+time = c(10)
 
 tibble(drinker, time) |>
   mutate(chug_num = row_number(), .by = "drinker") |>
@@ -725,7 +725,7 @@ tibble(drinker, time) |>
   scale_y_continuous(breaks = seq(0, 60, by = 2)) +
   labs(x = NULL,
        y = "Chug time (seconds)",
-       title = "The rest of you are cowards")
+       title = "Do your chugs this year cowards")
 ```
 
 ___
@@ -1055,7 +1055,7 @@ parlays |>
   scale_y_continuous(breaks = seq(0, 1, by = 0.1), labels = scales::percent) +
   coord_flip(ylim = c(0, 1.05)) +
   labs(x = NULL, y = "Parlay leg win percentage",
-       title = "NO MORE BETTING ON BARES DOLPHINS ON PANTHERS")
+       title = "JP OWE US MONEY AGAIN")
 ```
 
 ___
