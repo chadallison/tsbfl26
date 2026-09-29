@@ -104,19 +104,19 @@ library*
 
 - Week 2: David def. Isaac 139.38-134.57
 - Week 2: Matthew def. Adam 163.52-127.25
+- Week 3: Isaac def. Matthew 158.57-116.19
 - Week 1: Isaac def. Eric 137.95-114.4
 - Week 1: JP def. Matthew 147.76-108.72
-- Week 1: David def. Chad 130.31-108.43
 
 ------------------------------------------------------------------------
 
 ### Fewest Points Scored in a Victory
 
 - Week 2: Eric def. JP 92.28-61.62
+- Week 3: Hank def. JP 102.27-96.59
 - Week 1: Adam def. Hank 106.97-105.65
-- Week 1: Jeremiah def. Andrew 123.97-102.16
-- Week 2: Jeremiah def. Chad 126.35-73.3
-- Week 1: David def. Chad 130.31-108.43
+- Week 3: David def. Eric 110.87-107.81
+- Week 3: Adam def. Jeremiah 117.93-87.22
 
 ------------------------------------------------------------------------
 
@@ -137,40 +137,40 @@ library*
 ### Highest Scoring Games
 
 - Week 2: Matthew def. Adam 163.52-127.25
+- Week 3: Isaac def. Matthew 158.57-116.19
 - Week 2: David def. Isaac 139.38-134.57
 - Week 1: JP def. Matthew 147.76-108.72
 - Week 1: Isaac def. Eric 137.95-114.4
-- Week 1: David def. Chad 130.31-108.43
 
 ------------------------------------------------------------------------
 
 ### Biggest Blowouts
 
+- Week 3: Chad def. Andrew 152.64-95.23
 - Week 2: Jeremiah def. Chad 126.35-73.3
+- Week 3: Isaac def. Matthew 158.57-116.19
 - Week 1: JP def. Matthew 147.76-108.72
 - Week 2: Matthew def. Adam 163.52-127.25
-- Week 2: Eric def. JP 92.28-61.62
-- Week 2: Hank def. Andrew 131.31-102.25
 
 ------------------------------------------------------------------------
 
 ### Closest Games
 
 - Week 1: Adam def. Hank 106.97-105.65
+- Week 3: David def. Eric 110.87-107.81
 - Week 2: David def. Isaac 139.38-134.57
+- Week 3: Hank def. JP 102.27-96.59
 - Week 1: Jeremiah def. Andrew 123.97-102.16
-- Week 1: David def. Chad 130.31-108.43
-- Week 1: Isaac def. Eric 137.95-114.4
 
 ------------------------------------------------------------------------
 
 ### Most Points Scored by One Team
 
 - 163.52 (Matthew, Week 2)
+- 158.57 (Isaac, Week 3)
+- 152.64 (Chad, Week 3)
 - 147.76 (JP, Week 1)
 - 139.38 (David, Week 2)
-- 137.95 (Isaac, Week 1)
-- 134.57 (Isaac, Week 2)
 
 ------------------------------------------------------------------------
 
@@ -178,29 +178,29 @@ library*
 
 - 61.62 (JP, Week 2)
 - 73.3 (Chad, Week 2)
+- 87.22 (Jeremiah, Week 3)
 - 92.28 (Eric, Week 2)
-- 102.16 (Andrew, Week 1)
-- 102.25 (Andrew, Week 2)
+- 95.23 (Andrew, Week 3)
 
 ------------------------------------------------------------------------
 
 ### Past Week One Player Merchants
 
-- CeeDee Lamb: 33.9% of total points for Eric
-- Kenneth Walker III: 33.8% of total points for JP
-- Josh Allen: 30.3% of total points for Jeremiah
-- Jaxon Smith-Njigba: 28.2% of total points for Isaac
-- Ja’Marr Chase: 22.5% of total points for Andrew
+- Jahmyr Gibbs: 32.1% of total points for Adam
+- Brock Purdy: 27.7% of total points for Hank
+- Brock Bowers: 23.7% of total points for Eric
+- Bijan Robinson: 22.5% of total points for Chad
+- Ja’Marr Chase: 21.3% of total points for Andrew
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Josh Allen: 28.23% of total points for Jeremiah
-- Kenneth Walker III: 25.5% of total points for JP
-- Jaxon Smith-Njigba: 22.09% of total points for Isaac
-- Jahmyr Gibbs: 21.95% of total points for Adam
-- CeeDee Lamb: 21.39% of total points for Eric
+- Josh Allen: 25.5% of total points for Jeremiah
+- Jahmyr Gibbs: 25.36% of total points for Adam
+- Kenneth Walker III: 24.09% of total points for JP
+- Brock Purdy: 21.51% of total points for Hank
+- Bijan Robinson: 21.29% of total points for Chad
 
 ------------------------------------------------------------------------
 
@@ -274,16 +274,16 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
+- Adam: 1 win when projected to lose
 - David: 1 win when projected to lose
+- Isaac: 1 win when projected to lose
 - JP: 1 win when projected to lose
 - Jeremiah: 1 win when projected to lose
 - Matthew: 1 win when projected to lose
-- Adam: 0 wins when projected to lose
 - Andrew: 0 wins when projected to lose
 - Chad: 0 wins when projected to lose
 - Eric: 0 wins when projected to lose
 - Hank: 0 wins when projected to lose
-- Isaac: 0 wins when projected to lose
 
 ------------------------------------------------------------------------
 
