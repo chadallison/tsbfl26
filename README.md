@@ -60,7 +60,8 @@ library*
 - [Top Point Scorers Among WRs](#top-point-scorers-among-wrs)
 - [Team Scoring Over Projected](#team-scoring-over-projected)
 - [Player Scoring Over Projected](#player-scoring-over-projected)
-- [Actionable Quadrants](#actionable-quadrants)
+  <!-- - [Actionable Quadrants] -->
+- [Second Highest Scores](#second-highest-scores)
 
 ------------------------------------------------------------------------
 
@@ -102,21 +103,21 @@ library*
 
 ### Most Points Scored in a Loss
 
+- Week 4: Hank def. Chad 153.51-142.57
 - Week 2: David def. Isaac 139.38-134.57
 - Week 2: Matthew def. Adam 163.52-127.25
+- Week 4: David def. JP 125.94-124.76
 - Week 3: Isaac def. Matthew 158.57-116.19
-- Week 1: Isaac def. Eric 137.95-114.4
-- Week 1: JP def. Matthew 147.76-108.72
 
 ------------------------------------------------------------------------
 
 ### Fewest Points Scored in a Victory
 
 - Week 2: Eric def. JP 92.28-61.62
+- Week 4: Andrew def. Adam 96.01-95.39
 - Week 3: Hank def. JP 102.27-96.59
+- Week 4: Jeremiah def. Isaac 103.1-98.76
 - Week 1: Adam def. Hank 106.97-105.65
-- Week 3: David def. Eric 110.87-107.81
-- Week 3: Adam def. Jeremiah 117.93-87.22
 
 ------------------------------------------------------------------------
 
@@ -136,11 +137,11 @@ library*
 
 ### Highest Scoring Games
 
+- Week 4: Hank def. Chad 153.51-142.57
 - Week 2: Matthew def. Adam 163.52-127.25
 - Week 3: Isaac def. Matthew 158.57-116.19
 - Week 2: David def. Isaac 139.38-134.57
 - Week 1: JP def. Matthew 147.76-108.72
-- Week 1: Isaac def. Eric 137.95-114.4
 
 ------------------------------------------------------------------------
 
@@ -156,11 +157,11 @@ library*
 
 ### Closest Games
 
+- Week 4: Andrew def. Adam 96.01-95.39
+- Week 4: David def. JP 125.94-124.76
 - Week 1: Adam def. Hank 106.97-105.65
 - Week 3: David def. Eric 110.87-107.81
-- Week 2: David def. Isaac 139.38-134.57
-- Week 3: Hank def. JP 102.27-96.59
-- Week 1: Jeremiah def. Andrew 123.97-102.16
+- Week 4: Jeremiah def. Isaac 103.1-98.76
 
 ------------------------------------------------------------------------
 
@@ -168,9 +169,9 @@ library*
 
 - 163.52 (Matthew, Week 2)
 - 158.57 (Isaac, Week 3)
+- 153.51 (Hank, Week 4)
 - 152.64 (Chad, Week 3)
 - 147.76 (JP, Week 1)
-- 139.38 (David, Week 2)
 
 ------------------------------------------------------------------------
 
@@ -186,21 +187,21 @@ library*
 
 ### Past Week One Player Merchants
 
-- Jahmyr Gibbs: 32.1% of total points for Adam
-- Brock Purdy: 27.7% of total points for Hank
-- Brock Bowers: 23.7% of total points for Eric
-- Bijan Robinson: 22.5% of total points for Chad
-- Ja’Marr Chase: 21.3% of total points for Andrew
+- CeeDee Lamb: 27.6% of total points for Eric
+- Javonte Williams: 25.6% of total points for Matthew
+- Tetairoa McMillan: 24.9% of total points for Hank
+- Drake Maye: 24.4% of total points for Andrew
+- Kenneth Walker III: 24.4% of total points for JP
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Josh Allen: 25.5% of total points for Jeremiah
-- Jahmyr Gibbs: 25.36% of total points for Adam
-- Kenneth Walker III: 24.09% of total points for JP
-- Brock Purdy: 21.51% of total points for Hank
-- Bijan Robinson: 21.29% of total points for Chad
+- Kenneth Walker III: 24.17% of total points for JP
+- Jahmyr Gibbs: 23.46% of total points for Adam
+- Josh Allen: 23.16% of total points for Jeremiah
+- CeeDee Lamb: 21.86% of total points for Eric
+- Bijan Robinson: 20.63% of total points for Chad
 
 ------------------------------------------------------------------------
 
@@ -274,16 +275,16 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
+- Jeremiah: 2 wins when projected to lose
 - Adam: 1 win when projected to lose
 - David: 1 win when projected to lose
+- Eric: 1 win when projected to lose
+- Hank: 1 win when projected to lose
 - Isaac: 1 win when projected to lose
 - JP: 1 win when projected to lose
-- Jeremiah: 1 win when projected to lose
 - Matthew: 1 win when projected to lose
 - Andrew: 0 wins when projected to lose
 - Chad: 0 wins when projected to lose
-- Eric: 0 wins when projected to lose
-- Hank: 0 wins when projected to lose
 
 ------------------------------------------------------------------------
 
@@ -421,7 +422,63 @@ average, and higher would indicate your opponent scoring higher than
 
 ------------------------------------------------------------------------
 
-### Actionable Quadrants
+<!-- ### Actionable Quadrants -->
+
+<!-- ```{r echo = F} -->
+
+<!-- knows = rnorm(n = 10, mean = 0, sd = 1) |> -->
+
+<!--   scale() |> -->
+
+<!--   as.vector() -->
+
+<!-- fucks = rnorm(n = 10, mean = 0, sd = 1) |> -->
+
+<!--   scale() |> -->
+
+<!--   as.vector() -->
+
+<!-- knows_df = tibble( -->
+
+<!--   name = sample(team_records$first), -->
+
+<!--   knows, -->
+
+<!--   fucks -->
+
+<!-- ) -->
+
+<!-- knows_df |> -->
+
+<!--   mutate(total = knows + fucks) |> -->
+
+<!--   ggplot(aes(knows, fucks)) + -->
+
+<!--   geom_point(aes(col = total), shape = "square", size = 4, show.legend = F) + -->
+
+<!--   ggrepel::geom_text_repel(aes(label = name), size = 3.5, max.overlaps = 10) + -->
+
+<!--   geom_vline(xintercept = 0, linetype = "dashed", alpha = 0.25) + -->
+
+<!--   geom_hline(yintercept = 0, linetype = "dashed", alpha = 0.25) + -->
+
+<!--   scale_color_gradient(low = "indianred3", high = "springgreen4") + -->
+
+<!--   labs(x = "Knows what sex is", -->
+
+<!--        y = "Fucks", -->
+
+<!--        title = "This is completely random and will be different every time I update") + -->
+
+<!--   scale_x_continuous(breaks = seq(-3, 3, by = 0.5)) + -->
+
+<!--   scale_y_continuous(breaks = seq(-3, 3, by = 0.5)) -->
+
+<!-- ``` -->
+
+------------------------------------------------------------------------
+
+### Second Highest Scores
 
 ![](README_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
 
