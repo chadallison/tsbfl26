@@ -165,7 +165,8 @@ team_divisions = tibble(
 
 ```{r echo = F}
 team_records |>
-  mutate(first = factor(first, levels = rev(standings_vec))) |>
+  mutate(first = factor(first, levels = rev(standings_vec)),
+         diff = round(pts_scored - pts_against, 2)) |>
   ggplot(aes(first, win_pct)) +
   geom_col(aes(fill = win_pct), show.legend = F) +
   coord_flip() +
