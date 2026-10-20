@@ -115,9 +115,9 @@ library*
 
 - Week 2: Eric def. JP 92.28-61.62
 - Week 4: Andrew def. Adam 96.01-95.39
+- Week 6: Chad def. Matthew 96.54-82.74
 - Week 5: Matthew def. David 97.15-94.07
 - Week 3: Hank def. JP 102.27-96.59
-- Week 4: Jeremiah def. Isaac 103.1-98.76
 
 ------------------------------------------------------------------------
 
@@ -147,11 +147,11 @@ library*
 
 ### Biggest Blowouts
 
+- Week 6: JP def. Adam 164.37-88.84
 - Week 5: Andrew def. Eric 154.42-85.59
 - Week 3: Chad def. Andrew 152.64-95.23
 - Week 2: Jeremiah def. Chad 126.35-73.3
 - Week 5: Jeremiah def. Hank 170.49-125.32
-- Week 3: Isaac def. Matthew 158.57-116.19
 
 ------------------------------------------------------------------------
 
@@ -169,9 +169,9 @@ library*
 
 - 180.45 (Adam, Week 5)
 - 170.49 (Jeremiah, Week 5)
+- 164.37 (JP, Week 6)
 - 163.52 (Matthew, Week 2)
 - 158.57 (Isaac, Week 3)
-- 154.42 (Andrew, Week 5)
 
 ------------------------------------------------------------------------
 
@@ -179,29 +179,29 @@ library*
 
 - 61.62 (JP, Week 2)
 - 73.3 (Chad, Week 2)
+- 82.74 (Matthew, Week 6)
 - 85.59 (Eric, Week 5)
 - 87.22 (Jeremiah, Week 3)
-- 92.28 (Eric, Week 2)
 
 ------------------------------------------------------------------------
 
 ### Past Week One Player Merchants
 
-- Brock Bowers: 25% of total points for Eric
-- Spencer Shrader: 24.9% of total points for Eric
-- Jaylen Warren: 24.8% of total points for JP
-- Isaiah Likely: 24.1% of total points for Hank
-- James Cook III: 23.7% of total points for David
+- Tyler Shough: 30.8% of total points for Matthew
+- Jonathan Taylor: 24.3% of total points for Matthew
+- Drake Maye: 21.9% of total points for Andrew
+- D’Andre Swift: 21.4% of total points for Andrew
+- Jaxon Smith-Njigba: 20.8% of total points for Isaac
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Jahmyr Gibbs: 22.33% of total points for Adam
-- Josh Allen: 21.35% of total points for Jeremiah
-- CeeDee Lamb: 18.62% of total points for Eric
-- Kenneth Walker III: 18.35% of total points for JP
-- Bijan Robinson: 18.12% of total points for Chad
+- Josh Allen: 20.8% of total points for Jeremiah
+- Jahmyr Gibbs: 19.56% of total points for Adam
+- Jaxon Smith-Njigba: 18.31% of total points for Isaac
+- Kenneth Walker III: 17.91% of total points for JP
+- CeeDee Lamb: 17.14% of total points for Eric
 
 ------------------------------------------------------------------------
 
@@ -275,12 +275,12 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
+- Hank: 2 wins when projected to lose
 - Isaac: 2 wins when projected to lose
 - Jeremiah: 2 wins when projected to lose
 - Adam: 1 win when projected to lose
 - David: 1 win when projected to lose
 - Eric: 1 win when projected to lose
-- Hank: 1 win when projected to lose
 - JP: 1 win when projected to lose
 - Matthew: 1 win when projected to lose
 - Andrew: 0 wins when projected to lose
