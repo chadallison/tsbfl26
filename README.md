@@ -113,11 +113,11 @@ library*
 
 ### Fewest Points Scored in a Victory
 
+- Week 8: Jeremiah def. Matthew 87.48-86.9
 - Week 2: Eric def. JP 92.28-61.62
+- Week 8: Chad def. Isaac 93.44-86.89
+- Week 7: Jeremiah def. David 93.46-80.86
 - Week 4: Andrew def. Adam 96.01-95.39
-- Week 6: Chad def. Matthew 96.54-82.74
-- Week 5: Matthew def. David 97.15-94.07
-- Week 3: Hank def. JP 102.27-96.59
 
 ------------------------------------------------------------------------
 
@@ -141,7 +141,7 @@ library*
 - Week 4: Hank def. Chad 153.51-142.57
 - Week 5: Jeremiah def. Hank 170.49-125.32
 - Week 2: Matthew def. Adam 163.52-127.25
-- Week 5: Isaac def. JP 142.96-136.49
+- Week 7: Andrew def. Matthew 160.89-120.94
 
 ------------------------------------------------------------------------
 
@@ -150,18 +150,18 @@ library*
 - Week 6: JP def. Adam 164.37-88.84
 - Week 5: Andrew def. Eric 154.42-85.59
 - Week 3: Chad def. Andrew 152.64-95.23
+- Week 8: Andrew def. JP 156.63-99.51
 - Week 2: Jeremiah def. Chad 126.35-73.3
-- Week 5: Jeremiah def. Hank 170.49-125.32
 
 ------------------------------------------------------------------------
 
 ### Closest Games
 
+- Week 8: Jeremiah def. Matthew 87.48-86.9
 - Week 4: Andrew def. Adam 96.01-95.39
 - Week 4: David def. JP 125.94-124.76
 - Week 1: Adam def. Hank 106.97-105.65
-- Week 3: David def. Eric 110.87-107.81
-- Week 5: Matthew def. David 97.15-94.07
+- Week 7: Adam def. Isaac 113-111.09
 
 ------------------------------------------------------------------------
 
@@ -171,37 +171,37 @@ library*
 - 170.49 (Jeremiah, Week 5)
 - 164.37 (JP, Week 6)
 - 163.52 (Matthew, Week 2)
-- 158.57 (Isaac, Week 3)
+- 160.89 (Andrew, Week 7)
 
 ------------------------------------------------------------------------
 
 ### Fewest Points Scored by One Team
 
 - 61.62 (JP, Week 2)
+- 65.9 (Hank, Week 7)
 - 73.3 (Chad, Week 2)
+- 80.86 (David, Week 7)
 - 82.74 (Matthew, Week 6)
-- 85.59 (Eric, Week 5)
-- 87.22 (Jeremiah, Week 3)
 
 ------------------------------------------------------------------------
 
 ### Past Week One Player Merchants
 
-- Tyler Shough: 30.8% of total points for Matthew
-- Jonathan Taylor: 24.3% of total points for Matthew
-- Drake Maye: 21.9% of total points for Andrew
-- D’Andre Swift: 21.4% of total points for Andrew
-- Jaxon Smith-Njigba: 20.8% of total points for Isaac
+- Brock Bowers: 32.2% of total points for Eric
+- Josh Allen: 27.1% of total points for Jeremiah
+- Kirk Cousins: 25.8% of total points for JP
+- Steelers D/ST: 25.1% of total points for Jeremiah
+- Jaguars D/ST: 24.6% of total points for Chad
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Josh Allen: 20.8% of total points for Jeremiah
-- Jahmyr Gibbs: 19.56% of total points for Adam
-- Jaxon Smith-Njigba: 18.31% of total points for Isaac
-- Kenneth Walker III: 17.91% of total points for JP
-- CeeDee Lamb: 17.14% of total points for Eric
+- Jaxon Smith-Njigba: 19.49% of total points for Isaac
+- Josh Allen: 19.22% of total points for Jeremiah
+- Jahmyr Gibbs: 18.58% of total points for Adam
+- CeeDee Lamb: 17.11% of total points for Eric
+- Kenneth Walker III: 16.07% of total points for JP
 
 ------------------------------------------------------------------------
 
@@ -275,12 +275,12 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
-- Hank: 2 wins when projected to lose
+- Hank: 3 wins when projected to lose
+- Jeremiah: 3 wins when projected to lose
+- Eric: 2 wins when projected to lose
 - Isaac: 2 wins when projected to lose
-- Jeremiah: 2 wins when projected to lose
 - Adam: 1 win when projected to lose
 - David: 1 win when projected to lose
-- Eric: 1 win when projected to lose
 - JP: 1 win when projected to lose
 - Matthew: 1 win when projected to lose
 - Andrew: 0 wins when projected to lose
