@@ -715,15 +715,16 @@ ___
 ### Chug Analysis
 
 ```{r echo = F}
-drinker = c("Chad", "Hank", "Jerry")
-time = c(10, 27.5, 4.2)
+drinker = c("Chad", "Hank", "Jerry", "Chad", "Chad", "Jerry")
+time = c(10, 27.5, 4.2, 7.8, 8.5, 3)
 
 tibble(drinker, time) |>
   mutate(chug_num = row_number(), .by = "drinker") |>
-  mutate(drinker = paste0(drinker, " (Chug #", chug_num, ")")) |>
+  mutate(drinker = paste0(drinker, " (Chug #", chug_num, ")"),
+         time_label = paste0(time, "s")) |>
   ggplot(aes(reorder(drinker, -time), time)) +
   geom_col(fill = "#E3A562") +
-  geom_text(aes(label = time), size = 3.5, hjust = -0.25) +
+  geom_text(aes(label = time_label), size = 3.5, hjust = -0.25) +
   coord_flip(ylim = c(0, max(time) * 1.05)) +
   scale_y_continuous(breaks = seq(0, 60, by = 2)) +
   labs(x = NULL,
