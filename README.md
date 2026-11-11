@@ -149,9 +149,9 @@ library*
 
 - Week 6: JP def. Adam 164.37-88.84
 - Week 5: Andrew def. Eric 154.42-85.59
+- Week 9: Chad def. Hank 158.18-99.31
 - Week 3: Chad def. Andrew 152.64-95.23
 - Week 8: Andrew def. JP 156.63-99.51
-- Week 2: Jeremiah def. Chad 126.35-73.3
 
 ------------------------------------------------------------------------
 
@@ -187,21 +187,21 @@ library*
 
 ### Past Week One Player Merchants
 
-- Brock Bowers: 32.2% of total points for Eric
-- Josh Allen: 27.1% of total points for Jeremiah
-- Kirk Cousins: 25.8% of total points for JP
-- Steelers D/ST: 25.1% of total points for Jeremiah
-- Jaguars D/ST: 24.6% of total points for Chad
+- Puka Nacua: 33.5% of total points for Jeremiah
+- Christian Watson: 30.2% of total points for Isaac
+- Kenneth Walker III: 28.5% of total points for JP
+- Brock Purdy: 23.1% of total points for Hank
+- CeeDee Lamb: 23% of total points for Eric
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Jaxon Smith-Njigba: 19.49% of total points for Isaac
-- Josh Allen: 19.22% of total points for Jeremiah
-- Jahmyr Gibbs: 18.58% of total points for Adam
-- CeeDee Lamb: 17.11% of total points for Eric
-- Kenneth Walker III: 16.07% of total points for JP
+- Jaxon Smith-Njigba: 18.67% of total points for Isaac
+- Josh Allen: 18.65% of total points for Jeremiah
+- CeeDee Lamb: 17.89% of total points for Eric
+- Jahmyr Gibbs: 17.63% of total points for Adam
+- Kenneth Walker III: 17.5% of total points for JP
 
 ------------------------------------------------------------------------
 
@@ -275,9 +275,9 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
+- Eric: 3 wins when projected to lose
 - Hank: 3 wins when projected to lose
 - Jeremiah: 3 wins when projected to lose
-- Eric: 2 wins when projected to lose
 - Isaac: 2 wins when projected to lose
 - Adam: 1 win when projected to lose
 - David: 1 win when projected to lose
