@@ -138,10 +138,10 @@ library*
 ### Highest Scoring Games
 
 - Week 5: Adam def. Chad 180.45-142.24
+- Week 10: Adam def. Andrew 172.36-124.61
 - Week 4: Hank def. Chad 153.51-142.57
 - Week 5: Jeremiah def. Hank 170.49-125.32
 - Week 2: Matthew def. Adam 163.52-127.25
-- Week 7: Andrew def. Matthew 160.89-120.94
 
 ------------------------------------------------------------------------
 
@@ -150,8 +150,8 @@ library*
 - Week 6: JP def. Adam 164.37-88.84
 - Week 5: Andrew def. Eric 154.42-85.59
 - Week 9: Chad def. Hank 158.18-99.31
+- Week 10: Hank def. Matthew 164.67-107.25
 - Week 3: Chad def. Andrew 152.64-95.23
-- Week 8: Andrew def. JP 156.63-99.51
 
 ------------------------------------------------------------------------
 
@@ -168,10 +168,10 @@ library*
 ### Most Points Scored by One Team
 
 - 180.45 (Adam, Week 5)
+- 172.36 (Adam, Week 10)
 - 170.49 (Jeremiah, Week 5)
+- 164.67 (Hank, Week 10)
 - 164.37 (JP, Week 6)
-- 163.52 (Matthew, Week 2)
-- 160.89 (Andrew, Week 7)
 
 ------------------------------------------------------------------------
 
@@ -187,21 +187,21 @@ library*
 
 ### Past Week One Player Merchants
 
-- Puka Nacua: 33.5% of total points for Jeremiah
-- Christian Watson: 30.2% of total points for Isaac
-- Kenneth Walker III: 28.5% of total points for JP
-- Brock Purdy: 23.1% of total points for Hank
-- CeeDee Lamb: 23% of total points for Eric
+- Cam Skattebo: 28.4% of total points for Jeremiah
+- Christian McCaffrey: 27.5% of total points for Hank
+- Jaxon Smith-Njigba: 24% of total points for Isaac
+- Jahmyr Gibbs: 23.6% of total points for Adam
+- Joe Burrow: 23.3% of total points for Andrew
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Jaxon Smith-Njigba: 18.67% of total points for Isaac
-- Josh Allen: 18.65% of total points for Jeremiah
-- CeeDee Lamb: 17.89% of total points for Eric
-- Jahmyr Gibbs: 17.63% of total points for Adam
-- Kenneth Walker III: 17.5% of total points for JP
+- Jaxon Smith-Njigba: 19.19% of total points for Isaac
+- Josh Allen: 18.98% of total points for Jeremiah
+- Jahmyr Gibbs: 18.45% of total points for Adam
+- CeeDee Lamb: 17.93% of total points for Eric
+- Joe Burrow: 16.71% of total points for Andrew
 
 ------------------------------------------------------------------------
 
