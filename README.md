@@ -115,9 +115,9 @@ library*
 
 - Week 8: Jeremiah def. Matthew 87.48-86.9
 - Week 2: Eric def. JP 92.28-61.62
+- Week 11: JP def. Jeremiah 93.28-72.75
 - Week 8: Chad def. Isaac 93.44-86.89
 - Week 7: Jeremiah def. David 93.46-80.86
-- Week 4: Andrew def. Adam 96.01-95.39
 
 ------------------------------------------------------------------------
 
@@ -138,10 +138,10 @@ library*
 ### Highest Scoring Games
 
 - Week 5: Adam def. Chad 180.45-142.24
+- Week 11: Adam def. Hank 180.12-125.39
 - Week 10: Adam def. Andrew 172.36-124.61
 - Week 4: Hank def. Chad 153.51-142.57
 - Week 5: Jeremiah def. Hank 170.49-125.32
-- Week 2: Matthew def. Adam 163.52-127.25
 
 ------------------------------------------------------------------------
 
@@ -168,10 +168,10 @@ library*
 ### Most Points Scored by One Team
 
 - 180.45 (Adam, Week 5)
+- 180.12 (Adam, Week 11)
 - 172.36 (Adam, Week 10)
 - 170.49 (Jeremiah, Week 5)
 - 164.67 (Hank, Week 10)
-- 164.37 (JP, Week 6)
 
 ------------------------------------------------------------------------
 
@@ -179,29 +179,29 @@ library*
 
 - 61.62 (JP, Week 2)
 - 65.9 (Hank, Week 7)
+- 72.75 (Jeremiah, Week 11)
 - 73.3 (Chad, Week 2)
 - 80.86 (David, Week 7)
-- 82.74 (Matthew, Week 6)
 
 ------------------------------------------------------------------------
 
 ### Past Week One Player Merchants
 
-- Cam Skattebo: 28.4% of total points for Jeremiah
-- Christian McCaffrey: 27.5% of total points for Hank
-- Jaxon Smith-Njigba: 24% of total points for Isaac
-- Jahmyr Gibbs: 23.6% of total points for Adam
-- Joe Burrow: 23.3% of total points for Andrew
+- Texans D/ST: 27.5% of total points for Jeremiah
+- Patrick Mahomes: 24% of total points for David
+- CeeDee Lamb: 22.4% of total points for Eric
+- Chuba Hubbard: 21.5% of total points for Hank
+- Javonte Williams: 20.5% of total points for Matthew
 
 ------------------------------------------------------------------------
 
 ### Full Season One Player Merchants
 
-- Jaxon Smith-Njigba: 19.19% of total points for Isaac
-- Josh Allen: 18.98% of total points for Jeremiah
-- Jahmyr Gibbs: 18.45% of total points for Adam
-- CeeDee Lamb: 17.93% of total points for Eric
-- Joe Burrow: 16.71% of total points for Andrew
+- Josh Allen: 18.57% of total points for Jeremiah
+- CeeDee Lamb: 18.36% of total points for Eric
+- Jahmyr Gibbs: 17.93% of total points for Adam
+- Jaxon Smith-Njigba: 17.13% of total points for Isaac
+- Joe Burrow: 16.75% of total points for Andrew
 
 ------------------------------------------------------------------------
 
@@ -275,16 +275,16 @@ scores of 100, 110, and 120, his SOS rating would be (100 + 110 + 120) /
 
 ### Wins When Projected to Lose
 
-- Eric: 3 wins when projected to lose
+- Eric: 4 wins when projected to lose
 - Hank: 3 wins when projected to lose
+- Isaac: 3 wins when projected to lose
 - Jeremiah: 3 wins when projected to lose
-- Isaac: 2 wins when projected to lose
 - Adam: 1 win when projected to lose
+- Chad: 1 win when projected to lose
 - David: 1 win when projected to lose
 - JP: 1 win when projected to lose
 - Matthew: 1 win when projected to lose
 - Andrew: 0 wins when projected to lose
-- Chad: 0 wins when projected to lose
 
 ------------------------------------------------------------------------
 
