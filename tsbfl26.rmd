@@ -58,7 +58,8 @@ ___
 - [Team Scoring Over Projected]
 - [Player Scoring Over Projected]
 <!-- - [Actionable Quadrants] -->
-- [Second Highest Scores]
+- [Two Player Merchants]
+- [Three Player Merchants]
 
 ___
 
@@ -1498,61 +1499,83 @@ player_proj |>
        subtitle = "Top/bottom ten only")
 ```
 
-___
-
-<!-- ### Actionable Quadrants -->
-
-<!-- ```{r echo = F} -->
-<!-- knows = rnorm(n = 10, mean = 0, sd = 1) |> -->
-<!--   scale() |> -->
-<!--   as.vector() -->
-
-<!-- fucks = rnorm(n = 10, mean = 0, sd = 1) |> -->
-<!--   scale() |> -->
-<!--   as.vector() -->
-
-<!-- knows_df = tibble( -->
-<!--   name = sample(team_records$first), -->
-<!--   knows, -->
-<!--   fucks -->
-<!-- ) -->
-
-<!-- knows_df |> -->
-<!--   mutate(total = knows + fucks) |> -->
-<!--   ggplot(aes(knows, fucks)) + -->
-<!--   geom_point(aes(col = total), shape = "square", size = 4, show.legend = F) + -->
-<!--   ggrepel::geom_text_repel(aes(label = name), size = 3.5, max.overlaps = 10) + -->
-<!--   geom_vline(xintercept = 0, linetype = "dashed", alpha = 0.25) + -->
-<!--   geom_hline(yintercept = 0, linetype = "dashed", alpha = 0.25) + -->
-<!--   scale_color_gradient(low = "indianred3", high = "springgreen4") + -->
-<!--   labs(x = "Knows what sex is", -->
-<!--        y = "Fucks", -->
-<!--        title = "This is completely random and will be different every time I update") + -->
-<!--   scale_x_continuous(breaks = seq(-3, 3, by = 0.5)) + -->
-<!--   scale_y_continuous(breaks = seq(-3, 3, by = 0.5)) -->
-<!-- ``` -->
 
 ___
 
-### Second Highest Scores
+### Two Player Merchants
 
 ```{r echo = F}
-game_results |>
-  mutate(wk_score_rk = rank(-score), .by = "week") |>
-  filter(wk_score_rk == 2) |>
-  count(team) |>
-  inner_join(team_name_to_name, by = c("team" = "franchise_name")) |>
-  ggplot(aes(reorder(first, n), n)) +
-  geom_col(fill = "#7A5901") +
-  geom_text(aes(label = n), size = 3.5, hjust = -0.5) +
-  coord_flip() +
-  labs(x = NULL, y = NULL,
-       title = "Times finishing with second-highest score of the week",
-       subtitle = "Yes I added this because I'm spiteful and mad at Hank") +
-  scale_y_continuous(breaks = seq(0, 10, by = 1))
+ref = team_records |>
+  select(team, first, pts_scored)
+
+x = ff_starters(conn, week = 1:max(end_games$week)) |>
+  filter(!lineup_slot %in% c("BE", "IR")) |>
+  group_by(franchise_name, player_name) |>
+  summarise(pts = sum(player_score),
+            .groups = "drop") |>
+  mutate(team_rank = rank(-pts), .by = "franchise_name") |>
+  filter(team_rank <= 2) |>
+  arrange(team_rank) |>
+  group_by(franchise_name) |>
+  summarise(pts = sum(pts),
+            players = paste(player_name, collapse = ", ")) |>
+  inner_join(ref, by = c("franchise_name" = "team")) |>
+  mutate(pct = round(pts / pts_scored * 100, 1),
+         string = as.character(glue("{first}: {pct}% of total points from {players}"))) |>
+  arrange(desc(pct)) |>
+  pull(string)
 ```
 
+- `r x[1]`
+- `r x[2]`
+- `r x[3]`
+- `r x[4]`
+- `r x[5]`
+- `r x[6]`
+- `r x[7]`
+- `r x[8]`
+- `r x[9]`
+- `r x[10]`
+
 ___
+
+### Three Player Merchants
+
+```{r echo = F}
+ref = team_records |>
+  select(team, first, pts_scored)
+
+x = ff_starters(conn, week = 1:max(end_games$week)) |>
+  filter(!lineup_slot %in% c("BE", "IR")) |>
+  group_by(franchise_name, player_name) |>
+  summarise(pts = sum(player_score),
+            .groups = "drop") |>
+  mutate(team_rank = rank(-pts), .by = "franchise_name") |>
+  filter(team_rank <= 3) |>
+  arrange(team_rank) |>
+  group_by(franchise_name) |>
+  summarise(pts = sum(pts),
+            players = paste(player_name, collapse = ", ")) |>
+  inner_join(ref, by = c("franchise_name" = "team")) |>
+  mutate(pct = round(pts / pts_scored * 100, 1),
+         string = as.character(glue("{first}: {pct}% of total points from {players}"))) |>
+  arrange(desc(pct)) |>
+  pull(string)
+```
+
+- `r x[1]`
+- `r x[2]`
+- `r x[3]`
+- `r x[4]`
+- `r x[5]`
+- `r x[6]`
+- `r x[7]`
+- `r x[8]`
+- `r x[9]`
+- `r x[10]`
+
+___
+
 
 
 

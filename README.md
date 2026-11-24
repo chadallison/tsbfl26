@@ -61,7 +61,8 @@ library*
 - [Team Scoring Over Projected](#team-scoring-over-projected)
 - [Player Scoring Over Projected](#player-scoring-over-projected)
   <!-- - [Actionable Quadrants] -->
-- [Second Highest Scores](#second-highest-scores)
+- [Two Player Merchants](#two-player-merchants)
+- [Three Player Merchants](#three-player-merchants)
 
 ------------------------------------------------------------------------
 
@@ -422,64 +423,42 @@ average, and higher would indicate your opponent scoring higher than
 
 ------------------------------------------------------------------------
 
-<!-- ### Actionable Quadrants -->
+### Two Player Merchants
 
-<!-- ```{r echo = F} -->
-
-<!-- knows = rnorm(n = 10, mean = 0, sd = 1) |> -->
-
-<!--   scale() |> -->
-
-<!--   as.vector() -->
-
-<!-- fucks = rnorm(n = 10, mean = 0, sd = 1) |> -->
-
-<!--   scale() |> -->
-
-<!--   as.vector() -->
-
-<!-- knows_df = tibble( -->
-
-<!--   name = sample(team_records$first), -->
-
-<!--   knows, -->
-
-<!--   fucks -->
-
-<!-- ) -->
-
-<!-- knows_df |> -->
-
-<!--   mutate(total = knows + fucks) |> -->
-
-<!--   ggplot(aes(knows, fucks)) + -->
-
-<!--   geom_point(aes(col = total), shape = "square", size = 4, show.legend = F) + -->
-
-<!--   ggrepel::geom_text_repel(aes(label = name), size = 3.5, max.overlaps = 10) + -->
-
-<!--   geom_vline(xintercept = 0, linetype = "dashed", alpha = 0.25) + -->
-
-<!--   geom_hline(yintercept = 0, linetype = "dashed", alpha = 0.25) + -->
-
-<!--   scale_color_gradient(low = "indianred3", high = "springgreen4") + -->
-
-<!--   labs(x = "Knows what sex is", -->
-
-<!--        y = "Fucks", -->
-
-<!--        title = "This is completely random and will be different every time I update") + -->
-
-<!--   scale_x_continuous(breaks = seq(-3, 3, by = 0.5)) + -->
-
-<!--   scale_y_continuous(breaks = seq(-3, 3, by = 0.5)) -->
-
-<!-- ``` -->
+- Adam: 32.4% of total points from Jahmyr Gibbs, Dak Prescott
+- Jeremiah: 30.8% of total points from Josh Allen, Puka Nacua
+- Eric: 30.6% of total points from CeeDee Lamb, Brock Bowers
+- Hank: 30.4% of total points from Christian McCaffrey, Brock Purdy
+- Isaac: 30.2% of total points from Jaxon Smith-Njigba, Derrick Henry
+- Andrew: 29.4% of total points from Joe Burrow, Ja’Marr Chase
+- Matthew: 28.8% of total points from Javonte Williams, Trey McBride
+- David: 28% of total points from James Cook III, Patrick Mahomes
+- JP: 27.5% of total points from Kenneth Walker III, Trevor Lawrence
+- Chad: 26.8% of total points from Bijan Robinson, Jordan Love
 
 ------------------------------------------------------------------------
 
-### Second Highest Scores
+### Three Player Merchants
 
-![](README_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+- Adam: 43.3% of total points from Jahmyr Gibbs, Dak Prescott, Tee
+  Higgins
+- Hank: 43.2% of total points from Christian McCaffrey, Brock Purdy,
+  Chuba Hubbard
+- Jeremiah: 42.9% of total points from Josh Allen, Puka Nacua, Matthew
+  Stafford
+- Isaac: 42.6% of total points from Jaxon Smith-Njigba, Derrick Henry,
+  Jared Goff
+- Matthew: 42.4% of total points from Javonte Williams, Trey McBride,
+  Amon-Ra St. Brown
+- Andrew: 41.9% of total points from Joe Burrow, Ja’Marr Chase, Bucky
+  Irving
+- Eric: 40.1% of total points from CeeDee Lamb, Brock Bowers, Caleb
+  Williams
+- David: 38.5% of total points from James Cook III, Patrick Mahomes,
+  Chris Olave
+- Chad: 38% of total points from Bijan Robinson, Jordan Love, Kyren
+  Williams
+- JP: 36.3% of total points from Kenneth Walker III, Trevor Lawrence,
+  Nico Collins
 
 ------------------------------------------------------------------------
